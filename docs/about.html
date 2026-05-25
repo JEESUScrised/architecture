@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Studio — о нас</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page page--about">
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">Nova<span class="header__logo-accent">Studio</span></a>
+      <nav class="nav">
+        <button type="button" class="nav__burger" aria-label="Меню">
+          <span class="nav__burger-line"></span>
+          <span class="nav__burger-line"></span>
+          <span class="nav__burger-line"></span>
+        </button>
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Главная</a></li>
+          <li><a href="about.html" class="nav__link nav__link--active">О нас</a></li>
+          <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page__main">
+    <div class="content">
+      <h1 class="content__title">О студии</h1>
+      <p class="content__text">
+        Nova Studio — учебный многостраничный сайт для демонстрации методологии БЭМ (Блок, Элемент, Модификатор).
+        Имена классов отражают структуру: например, <strong>header__inner</strong> — элемент блока header.
+      </p>
+
+      <h2 class="content__subtitle">Принципы БЭМ в проекте</h2>
+      <p class="content__text">
+        <strong>Блок</strong> — независимый компонент (header, card, footer).<br>
+        <strong>Элемент</strong> — часть блока (nav__link, card__title).<br>
+        <strong>Модификатор</strong> — вариант блока или элемента (screen--hero, button--primary).
+      </p>
+
+      <h2 class="content__subtitle">Команда</h2>
+      <p class="content__text">Блок team с элементами team__member, team__name, team__role.</p>
+      <div class="team">
+        <div class="team__member">
+          <p class="team__name">Алексей</p>
+          <p class="team__role">вёрстка</p>
+        </div>
+        <div class="team__member">
+          <p class="team__name">Мария</p>
+          <p class="team__role">дизайн</p>
+        </div>
+        <div class="team__member">
+          <p class="team__name">Игорь</p>
+          <p class="team__role">контент</p>
+        </div>
+      </div>
+
+      <p style="margin-top: 32px;">
+        <a href="contacts.html" class="button button--primary">Связаться</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copy">© 2026 Nova Studio</p>
+      <div class="footer__links">
+        <a href="index.html" class="footer__link">Главная</a>
+        <a href="about.html" class="footer__link">О нас</a>
+        <a href="contacts.html" class="footer__link">Контакты</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

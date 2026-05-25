@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Studio — главная</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page page--home">
+  <!-- block: header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">Nova<span class="header__logo-accent">Studio</span></a>
+      <!-- block: nav -->
+      <nav class="nav">
+        <button type="button" class="nav__burger" aria-label="Меню">
+          <span class="nav__burger-line"></span>
+          <span class="nav__burger-line"></span>
+          <span class="nav__burger-line"></span>
+        </button>
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link nav__link--active">Главная</a></li>
+          <li><a href="about.html" class="nav__link">О нас</a></li>
+          <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page__main">
+    <!-- screen 1: hero -->
+    <section class="screen screen--hero" id="hero">
+      <div class="screen__inner">
+        <h1 class="screen__title">Сайты и интерфейсы<br><span class="screen__title--accent">по методологии БЭМ</span></h1>
+        <p class="screen__text">Учебный проект: блоки, элементы и модификаторы в вёрстке. Три экрана прокрутки на главной и отдельные страницы.</p>
+        <a href="about.html" class="button button--primary">Узнать о студии</a>
+      </div>
+    </section>
+
+    <!-- screen 2: services -->
+    <section class="screen screen--services" id="services">
+      <div class="screen__inner">
+        <h2 class="screen__title">Чем занимаемся</h2>
+        <p class="screen__text">Каждая карточка — блок <code>card</code> с элементами <code>card__title</code> и <code>card__text</code>.</p>
+        <div class="cards-grid">
+          <article class="card">
+            <div class="card__icon">◆</div>
+            <h3 class="card__title">Вёрстка</h3>
+            <p class="card__text">Семантический HTML и БЭМ-именование классов без вложенности блоков.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">◇</div>
+            <h3 class="card__title">Адаптив</h3>
+            <p class="card__text">Сетка и меню под мобильные — модификатор <code>nav__list--open</code>.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">○</div>
+            <h3 class="card__title">Многостраничность</h3>
+            <p class="card__text">Главная, о нас и контакты — общие блоки header и footer.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- screen 3: cta -->
+    <section class="screen screen--cta" id="cta">
+      <div class="screen__inner">
+        <h2 class="screen__title">Готовы обсудить проект?</h2>
+        <p class="screen__text">Третий экран прокрутки. Кнопки — блок <code>button</code> с модификаторами <code>button--primary</code> и <code>button--outline</code>.</p>
+        <a href="contacts.html" class="button button--primary">Написать нам</a>
+        <a href="about.html" class="button button--outline" style="margin-left: 12px;">Команда</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- block: footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copy">© 2026 Nova Studio — задание БЭМ</p>
+      <div class="footer__links">
+        <a href="index.html" class="footer__link">Главная</a>
+        <a href="about.html" class="footer__link">О нас</a>
+        <a href="contacts.html" class="footer__link">Контакты</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

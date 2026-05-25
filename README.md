@@ -17,3 +17,7 @@ python lsp.py
 python isp.py
 python dip.py
 ```
+
+## Сайт на БЭМ
+
+Папка [`docs/`](docs/) — многостраничный сайт Nova Studio (GitHub Pages).
