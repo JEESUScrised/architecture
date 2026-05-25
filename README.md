@@ -1,21 +1,26 @@
-# Примеры принципов SOLID (Python 3)
+# architecture (ITHUB)
 
-Учебное задание: каждый файл — один принцип, код с комментариями по мотивам лекции.
+Примеры для заданий по архитектуре и ООП.
+
+## SOLID
 
 | Файл | Принцип |
 |------|---------|
-| `srp.py` | **S** — разбиение RentCarService |
-| `ocp.py` | **O** — NotificationService + новые каналы |
-| `lsp.py` | **L** — иерархия счетов без «ломающего» payment |
-| `isp.py` | **I** — узкие интерфейсы оплаты |
-| `dip.py` | **D** — Shop зависит от Payment |
-
-Запуск:
+| [srp.py](srp.py) | Single Responsibility |
+| [ocp.py](ocp.py) | Open/Closed |
+| [lsp.py](lsp.py) | Liskov Substitution |
+| [isp.py](isp.py) | Interface Segregation |
+| [dip.py](dip.py) | Dependency Inversion |
 
 ```bash
 python srp.py
-python ocp.py
-python lsp.py
-python isp.py
-python dip.py
+```
+
+## ООП
+
+Папка [oop_examples/](oop_examples/) — классы, наследование, инкапсуляция, интерфейсы.
+
+```bash
+cd oop_examples
+python 01_klassy_i_obekty.py
 ```
