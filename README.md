@@ -1,26 +1,19 @@
-# architecture (ITHUB)
-
-Примеры для заданий по архитектуре и ООП.
-
-## SOLID
+# SOLID — примеры на Python 3
 
 | Файл | Принцип |
 |------|---------|
-| [srp.py](srp.py) | Single Responsibility |
-| [ocp.py](ocp.py) | Open/Closed |
-| [lsp.py](lsp.py) | Liskov Substitution |
-| [isp.py](isp.py) | Interface Segregation |
-| [dip.py](dip.py) | Dependency Inversion |
+| `srp.py` | Single Responsibility |
+| `ocp.py` | Open/Closed |
+| `lsp.py` | Liskov Substitution |
+| `isp.py` | Interface Segregation |
+| `dip.py` | Dependency Inversion |
+
+В коде есть комментарии по каждому принципу.
 
 ```bash
 python srp.py
-```
-
-## ООП
-
-Папка [oop_examples/](oop_examples/) — классы, наследование, инкапсуляция, интерфейсы.
-
-```bash
-cd oop_examples
-python 01_klassy_i_obekty.py
+python ocp.py
+python lsp.py
+python isp.py
+python dip.py
 ```
